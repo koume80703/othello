@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from typing import List
 
-from mcts.istate import IState
 from mcts.util.argmax import argmax
 from mcts.util.ucb1 import ucb1
 
@@ -10,8 +9,8 @@ import copy
 
 
 class Node:
-    def __init__(self, state: IState, expand_base: int = 20) -> None:
-        self.state: IState = copy.deepcopy(state)
+    def __init__(self, state, expand_base: int = 20) -> None:
+        self.state = copy.deepcopy(state)
         self.w: float = 0
         self.n: int = 0
         self.expand_base: int = expand_base
@@ -59,7 +58,7 @@ class Node:
         return self.children[argmax(ucb1_values)]
 
     @classmethod
-    def playout(cls, state: IState) -> float:
+    def playout(cls, state) -> float:
         if state.is_done():
             if state.is_win():
                 return 1
