@@ -9,16 +9,16 @@ import copy
 
 
 class Node:
-    def __init__(self, state, expand_base: int = 20) -> None:
-        self.state = copy.deepcopy(state)
+    def __init__(self, state, base_player, expand_base: int = 20) -> None:
+        self.state = state
         self.w: float = 0
         self.n: int = 0
         self.expand_base: int = expand_base
         self.children: List[Node] = []
 
-    def evaluate(self) -> float:
-        """現在のノードの評価値を計算して更新する。"""
+        self.base_player = base_player
 
+    def evaluate(self) -> float:
         if self.state.is_done():
             value = -1 if self.state.is_lose() else 0
             self.w += value
@@ -26,7 +26,9 @@ class Node:
             return value
 
         if self.children == []:
-            value = Node.playout(copy.deepcopy(self.state))
+            value = Node.playout(
+                copy.deepcopy(self.state), base_player=self.base_player
+            )
             self.w += value
             self.n += 1
 
@@ -58,17 +60,17 @@ class Node:
         return self.children[argmax(ucb1_values)]
 
     @classmethod
-    def playout(cls, state) -> float:
+    def playout(cls, state, base_player) -> float:
         if state.is_done():
-            if state.is_win():
+            if state.is_win(base_player):
                 return 1
-            elif state.is_lose():
+            elif state.is_lose(base_player):
                 return -1
             else:
                 return 0
 
         if state.legal_actions() == []:
             state = state.pass_moving()
-            return Node.playout(state)
+            return Node.playout(state, base_player)
         else:
-            return Node.playout(state.next(state.random_action()))
+            return Node.playout(state.next(state.random_action()), base_player)
