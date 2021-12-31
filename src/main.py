@@ -1,20 +1,21 @@
-from state import State
-from mcts.node import Node
-from mcts.mcts import MCTS
+from board import BLACK, WHITE
+from player import Player
 from game import Game
+from state import State
 
-import time
+START_PLAYER = BLACK
 
 
 def main():
     GAME_NUM = 20
 
     count_cycle = 0
-    count_won = 0
-    count_lose = 0
-    count_draw = 0
+    count_won, count_lose, count_draw = 0, 0, 0
 
     total_time = 0
+
+    player1 = Player(BLACK)
+    player2 = Player(WHITE)
 
     for _ in range(GAME_NUM):
         count_cycle += 1
@@ -26,24 +27,17 @@ def main():
                 state = state.pass_moving()
                 continue
             if state.is_first_player():
-                root_node = Node(state, expand_base=20)
-
-                start_time = time.time()
-                MCTS.train(root_node=root_node, simulation=100)
-                elapsed_time = time.time() - start_time
-                total_time += elapsed_time
-                print(f"elapsed time: {elapsed_time:.2f}")
-                action = MCTS().select_action(root_node)
+                action = player1.mcts_action(state)
                 state = state.next(action)
             else:
-                action = state.random_action()
+                action = player2.mcts_action(state, expand_base=100, simulation=1000)
                 state = state.next(action)
 
         state.game.board.show_board()
         state.game.show_score()
         if state.is_draw():
             count_draw += 1
-        elif state.is_lose():
+        elif state.is_lose(START_PLAYER):
             count_lose += 1
         else:
             count_won += 1
