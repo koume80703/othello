@@ -21,44 +21,40 @@ def main():
         print("cycle: ", count_cycle)
         game = Game()
         state = State(game)
-        while True:
-            if state.is_done():
-                state.game.board.show_board()
-                state.game.show_score()
-                if state.is_draw():
-                    count_draw += 1
-                    print("draw")
-                elif state.is_lose():
-                    count_lose += 1
-                    print("lose")
-                else:
-                    count_won += 1
-                    print("win")
-                break
-
+        while not state.is_done():
             if state.legal_actions() == []:
                 state = state.pass_moving()
                 continue
             if state.is_first_player():
-                root_node = Node(state, expand_base=70)
+                root_node = Node(state, expand_base=20)
 
                 start_time = time.time()
-                MCTS.train(root_node=root_node, simulation=1000)
+                MCTS.train(root_node=root_node, simulation=100)
                 elapsed_time = time.time() - start_time
-                print("elapsed time: {0:.2f}".format(elapsed_time) + "[sec]\n")
+                total_time += elapsed_time
+                print(f"elapsed time: {elapsed_time:.2f}")
                 action = MCTS().select_action(root_node)
                 state = state.next(action)
             else:
                 action = state.random_action()
                 state = state.next(action)
 
-    print()
-    print("win: ", count_won)
-    print("lose:", count_lose)
-    print("draw:", count_draw)
+        state.game.board.show_board()
+        state.game.show_score()
+        if state.is_draw():
+            count_draw += 1
+        elif state.is_lose():
+            count_lose += 1
+        else:
+            count_won += 1
 
-    print("total time: {0:.2f}".format(total_time) + "[sec]")
-    print("average elapsed time: {0:.2f}".format(total_time / GAME_NUM) + "[sec]")
+    print()
+    print(f"win:  {count_won}")
+    print(f"lose: {count_lose}")
+    print(f"draw: {count_draw}")
+
+    print(f"total time: {total_time:.2f}[sec]")
+    print(f"average elapsed time: {total_time / GAME_NUM:.2f} [sec]")
 
 
 if __name__ == "__main__":
