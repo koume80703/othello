@@ -91,14 +91,14 @@ class Board:
         for y_val in self.RawBoard:
             for x_val in y_val:
                 if x_val == WHITE:
-                    output_log("w ")
+                    output_log("w", end=" ")
                 elif x_val == BLACK:
-                    output_log("b ")
+                    output_log("b", end=" ")
                 elif x_val == EMPTY:
-                    output_log("* ")
+                    output_log("*", end=" ")
                 else:
-                    output_log(". ")
-            output_log("\n")
+                    output_log(".", end=" ")
+            output_log("", end="\n")
         output_log("--" * 20)
 
     def get_board_state(self):
