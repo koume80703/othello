@@ -1,4 +1,5 @@
 import time
+import os
 
 from board import BLACK, WHITE
 from game import Game
@@ -10,6 +11,9 @@ START_PLAYER = BLACK
 
 
 def main():
+    if os.path.isfile("result/result.txt"):
+        os.remove("result/result.txt")
+
     GAME_NUM = 20
 
     count_play = 0

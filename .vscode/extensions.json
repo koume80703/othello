@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "tuttieee.emacs-mcx",
+        "ms-ceintl.vscode-language-pack-ja",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-wsl",
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense"
+    ]
+}
