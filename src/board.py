@@ -2,6 +2,8 @@ import numpy as np
 
 from typing import List, Tuple
 
+from output_log import output_log
+
 EMPTY = 0
 WHITE = -1
 BLACK = 1
@@ -85,19 +87,19 @@ class Board:
         return placable
 
     def show_board(self):
-        print("--" * 20)
-        for i in self.RawBoard:
-            for j in i:
-                if j == WHITE:
-                    print("w", end=" ")
-                elif j == BLACK:
-                    print("b", end=" ")
-                elif j == EMPTY:
-                    print("*", end=" ")
+        output_log("--" * 20)
+        for y_val in self.RawBoard:
+            for x_val in y_val:
+                if x_val == WHITE:
+                    output_log("w ")
+                elif x_val == BLACK:
+                    output_log("b ")
+                elif x_val == EMPTY:
+                    output_log("* ")
                 else:
-                    print(".", end=" ")
-            print("\n", end="")
-        print("--" * 20)
+                    output_log(". ")
+            output_log("\n")
+        output_log("--" * 20)
 
     def get_board_state(self):
         return self.RawBoard

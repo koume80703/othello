@@ -1,5 +1,7 @@
-from board import Board
 from typing import List, Tuple
+
+from board import Board
+from output_log import output_log
 
 WHITE = -1
 BLACK = 1
@@ -59,10 +61,10 @@ class Game:
         self.set_order.append((0, -1, -1))
 
     def show_score(self):
-        print("{}: {}".format("WHITE", self.stones[0]))
-        print("{}: {}".format("BLACK", self.stones[1]))
-
-        print("Winner: {}".format(self.get_color(self.winner)))
+        output_log(
+            "{}: {}, {}: {}".format("WHITE", self.stones[0], "BLACK", self.stones[1])
+        )
+        output_log("Winner: {}".format(self.get_color(self.winner)))
 
     def get_stone_num(self):
         white = 0
