@@ -8,11 +8,13 @@ from player import Player
 from state import State
 
 START_PLAYER = BLACK
+ARG_WHITE = (50, 100)
+ARG_BLACK = (100, 500)
 
 
 def main():
     if os.path.isfile("result/result.txt"):
-        os.remove("result/result.txt")
+        os.rename("result/result.txt", "result/result1.txt")
 
     GAME_NUM = 20
 
@@ -24,6 +26,22 @@ def main():
 
     player1 = Player(BLACK)
     player2 = Player(WHITE)
+
+    output_log("This is mcts program of Othello", output_flag=BASIC)
+    output_log(
+        "   BLACK->\n\
+            expand base = {0}, simulation number: {1}".format(
+            ARG_BLACK[0], ARG_BLACK[1]
+        ),
+        output_flag=BASIC,
+    )
+    output_log(
+        "   WHITE->\n\
+            expand_base = {0}, simulation number: {1}".format(
+            ARG_WHITE[0], ARG_WHITE[1]
+        ),
+        output_flag=BASIC,
+    )
 
     for _ in range(GAME_NUM):
         count_play += 1
@@ -37,7 +55,9 @@ def main():
                 continue
             if state.is_first_player():
                 start = time.time()
-                action = player1.mcts_action(state, expand_base=50, simulation=200)
+                action = player1.mcts_action(
+                    state, expand_base=ARG_BLACK[0], simulation=ARG_BLACK[1]
+                )
                 elapsed = time.time() - start
                 output_log(
                     "player1's elapsed time: {:.2f} [sec]".format(elapsed),
@@ -47,7 +67,9 @@ def main():
                 state = state.next(action)
             else:
                 start = time.time()
-                action = player2.mcts_action(state, expand_base=25, simulation=100)
+                action = player2.mcts_action(
+                    state, expand_base=ARG_WHITE[0], simulation=ARG_WHITE[1]
+                )
                 elapsed = time.time() - start
                 output_log(
                     "player2's elapsed time: {:.2f} [sec]".format(elapsed),
@@ -65,6 +87,7 @@ def main():
         else:
             count_won += 1
 
+    output_log("", end="\n", output_flag=BASIC)
     output_log(
         "win: {0}, lose: {1}, draw: {2}".format(count_won, count_lose, count_draw),
         output_flag=BASIC,
