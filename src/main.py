@@ -37,7 +37,7 @@ def main():
                 continue
             if state.is_first_player():
                 start = time.time()
-                action = player1.mcts_action(state, expand_base=200, simulation=500)
+                action = player1.mcts_action(state, expand_base=50, simulation=200)
                 elapsed = time.time() - start
                 output_log(
                     "player1's elapsed time: {:.2f} [sec]".format(elapsed),
@@ -47,7 +47,7 @@ def main():
                 state = state.next(action)
             else:
                 start = time.time()
-                action = player2.mcts_action(state, expand_base=3, simulation=10)
+                action = player2.mcts_action(state, expand_base=25, simulation=100)
                 elapsed = time.time() - start
                 output_log(
                     "player2's elapsed time: {:.2f} [sec]".format(elapsed),
