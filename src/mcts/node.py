@@ -45,7 +45,7 @@ class Node:
         if self.state.legal_actions() == []:
             return
         self.children = [
-            Node(self.state.next(action), self.expand_base)
+            Node(self.state.next(action), self.base_player, self.expand_base)
             for action in self.state.legal_actions()
         ]
 

@@ -1,11 +1,11 @@
-import time
 import os
+import time
 
 from board import BLACK, WHITE
 from game import Game
+from output_log import BASIC, output_log
 from player import Player
 from state import State
-from output_log import output_log
 
 START_PLAYER = BLACK
 
@@ -27,7 +27,7 @@ def main():
 
     for _ in range(GAME_NUM):
         count_play += 1
-        output_log("<play: {}>".format(count_play))
+        output_log("<play: {}>".format(count_play), output_flag=BASIC)
 
         game = Game()
         state = State(game)
@@ -37,16 +37,22 @@ def main():
                 continue
             if state.is_first_player():
                 start = time.time()
-                action = player1.mcts_action(state, expand_base=100, simulation=1000)
+                action = player1.mcts_action(state, expand_base=200, simulation=500)
                 elapsed = time.time() - start
-                output_log("player1's elapsed time: {:.2f}".format(elapsed))
+                output_log(
+                    "player1's elapsed time: {:.2f} [sec]".format(elapsed),
+                    output_flag=BASIC,
+                )
                 total_time1 += elapsed
                 state = state.next(action)
             else:
                 start = time.time()
-                action = player2.mcts_action(state, expand_base=30, simulation=100)
+                action = player2.mcts_action(state, expand_base=3, simulation=10)
                 elapsed = time.time() - start
-                output_log("player2's elapsed time: {:.2f}".format(elapsed))
+                output_log(
+                    "player2's elapsed time: {:.2f} [sec]".format(elapsed),
+                    output_flag=BASIC,
+                )
                 total_time2 += elapsed
                 state = state.next(action)
 
@@ -60,15 +66,24 @@ def main():
             count_won += 1
 
     output_log(
-        "win: {0}, lose: {1}, draw: {2}".format(count_won, count_lose, count_draw)
+        "win: {0}, lose: {1}, draw: {2}".format(count_won, count_lose, count_draw),
+        output_flag=BASIC,
     )
-    output_log("total time of player1:         : {:.2f} [sec]".format(total_time1))
     output_log(
-        "average elapsed time of player1: {:.2f} [sec]".format(total_time1 / GAME_NUM)
+        "total time of player1:         : {:.2f} [sec]".format(total_time1),
+        output_flag=BASIC,
     )
-    output_log("total time of player2          : {:.2f} [sec]".format(total_time2))
     output_log(
-        "average elapsed time of player2: {:.2f} [sec]".format(total_time2 / GAME_NUM)
+        "average elapsed time of player1: {:.2f} [sec]".format(total_time1 / GAME_NUM),
+        output_flag=BASIC,
+    )
+    output_log(
+        "total time of player2          : {:.2f} [sec]".format(total_time2),
+        output_flag=BASIC,
+    )
+    output_log(
+        "average elapsed time of player2: {:.2f} [sec]".format(total_time2 / GAME_NUM),
+        output_flag=BASIC,
     )
 
 

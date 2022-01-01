@@ -34,13 +34,13 @@ class State:
         winner = self.winner()
         if winner is None:
             return False
-        return True if base_player == winner else False
+        return True if winner == base_player else False
 
     def is_lose(self, base_player) -> bool:
         winner = self.winner()
         if winner is None:
             return False
-        return True if base_player == -winner else False
+        return True if winner == -base_player else False
 
     def is_draw(self) -> bool:
         return True if self.winner() == self.game.DRAW else False
