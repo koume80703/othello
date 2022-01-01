@@ -23,7 +23,7 @@ def main():
 
     for _ in range(GAME_NUM):
         count_play += 1
-        output_log("<play: {}".format(count_play))
+        output_log("<play: {}>".format(count_play))
 
         game = Game()
         state = State(game)
