@@ -33,6 +33,7 @@ def main():
         ),
         output_flag=BASIC,
     )
+    """
     output_log(
         "   WHITE->\n\
             expand_base = {0}, simulation number: {1}".format(
@@ -40,6 +41,8 @@ def main():
         ),
         output_flag=BASIC,
     )
+    """
+    output_log("   WHITE->  random_player", output_flag=BASIC)
 
     for _ in range(GAME_NUM):
         count_play += 1
@@ -65,9 +68,12 @@ def main():
                 state = state.next(action)
             else:
                 start = time.time()
+                action = player2.random_action(state)
+                """
                 action = player2.mcts_action(
                     state, expand_base=ARG_WHITE[0], simulation=ARG_WHITE[1]
                 )
+                """
                 elapsed = time.time() - start
                 output_log(
                     "player2's elapsed time: {:.2f} [sec]".format(elapsed),
