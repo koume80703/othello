@@ -9,8 +9,8 @@ from state import State
 START_PLAYER = BLACK
 
 # (expand_base, simulation number)
-ARG_WHITE = (50, 100)
-ARG_BLACK = (30, 100)
+ARG_WHITE = (200, 1000)
+ARG_BLACK = (70, 200)
 
 
 def main():
