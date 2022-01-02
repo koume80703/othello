@@ -1,4 +1,3 @@
-import os
 import time
 
 from board import BLACK, WHITE
@@ -8,14 +7,13 @@ from player import Player
 from state import State
 
 START_PLAYER = BLACK
+
+# (expand_base, simulation number)
 ARG_WHITE = (50, 100)
-ARG_BLACK = (100, 500)
+ARG_BLACK = (30, 100)
 
 
 def main():
-    if os.path.isfile("result/result.txt"):
-        os.rename("result/result.txt", "result/result1.txt")
-
     GAME_NUM = 20
 
     count_play = 0
