@@ -10,7 +10,7 @@ START_PLAYER = BLACK
 
 # (expand_base, simulation number)
 ARG_WHITE = (200, 1000)
-ARG_BLACK = (50, 150)
+ARG_BLACK = (0,1)
 
 
 def main():
