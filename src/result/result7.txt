@@ -1,0 +1,1510 @@
+This is mcts program of Othello
+   BLACK->
+            expand base = 5, simulation number: 20
+   WHITE->  random_player
+<play: 1>
+player1's elapsed time: 0.90 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.52 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.49 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.46 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player1's elapsed time: 0.22 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.13 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.07 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b b . 
+. b b b b w w b b . 
+. b w b w b b b b . 
+. b w w w w w b b . 
+. b w w b w w w b . 
+. b b w w b w w w . 
+. b b b b b b w w . 
+. b b b b b w w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 24, BLACK: 40
+Winner: BLACK
+<play: 2>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.62 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.55 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.51 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.46 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.43 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.28 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player1's elapsed time: 0.09 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.07 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.05 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. w w b b b b b b . 
+. w w b b w w b b . 
+. w w b w b w b b . 
+. b w b b w b w b . 
+. b w b b w b b b . 
+. b w w b b w b b . 
+. b b b b b b b b . 
+. b b b b b b w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 20, BLACK: 44
+Winner: BLACK
+<play: 3>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.67 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.52 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.46 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.32 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.29 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.16 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player1's elapsed time: 0.07 [sec]
+player1's elapsed time: 0.07 [sec]
+player1's elapsed time: 0.05 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b b . 
+. b b b b b b b b . 
+. b b w w w b b b . 
+. b b b b w w b b . 
+. b b b b b w b b . 
+. b b b b b b w b . 
+. b b b b b b b b . 
+. b b b b b b b b . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 7, BLACK: 57
+Winner: BLACK
+<play: 4>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.69 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.65 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.51 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.41 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.32 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.29 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.26 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player1's elapsed time: 0.15 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.13 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.11 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.09 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b w . 
+. b b b b b b w w . 
+. b w b w b w b w . 
+. b b w b w b b w . 
+. b b b w b b b w . 
+. b b w w w b b w . 
+. b w w w w b b w . 
+. w b b b b b b b . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 22, BLACK: 42
+Winner: BLACK
+<play: 5>
+player1's elapsed time: 0.90 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.78 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.71 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.68 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.65 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.61 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.57 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.53 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.50 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.46 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.18 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.13 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.11 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b w w . 
+. w w w b b b w w . 
+. w w b b w w w w . 
+. w w w w w w w w . 
+. w b w w w w w w . 
+. w b b b b w w w . 
+. w w w w w w w w . 
+. w w w w b b b b . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 44, BLACK: 20
+Winner: WHITE
+<play: 6>
+player1's elapsed time: 0.87 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.80 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.69 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.60 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.49 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.49 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.46 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.43 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.40 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.34 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.31 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.25 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.20 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.15 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. w w w b b b b b . 
+. w w w b b b b w . 
+. w w b w w w w w . 
+. w w b b b b w b . 
+. w w b w w b w b . 
+. w w b w w w b b . 
+. w w w b w w b b . 
+. w w b b b b b b . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 34, BLACK: 30
+Winner: WHITE
+<play: 7>
+player1's elapsed time: 0.89 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.72 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.67 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.55 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.53 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.49 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.31 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.05 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b b . 
+. b b w w w w b b . 
+. b w b w w b w b . 
+. b b w b b w w b . 
+. b b w w b b w b . 
+. b b b w w b b b . 
+. w b b b b b b b . 
+. b b b b b w w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 20, BLACK: 44
+Winner: BLACK
+<play: 8>
+player1's elapsed time: 0.89 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.86 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.79 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.67 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.64 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.61 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.57 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.53 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.50 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.46 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.44 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.32 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.26 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.16 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b w . 
+. b b b b b b b w . 
+. b b b b w w w w . 
+. b b b b b w b w . 
+. b b b w b b b w . 
+. b b w w w w b w . 
+. b w w b b b w w . 
+. w w b b b w w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 24, BLACK: 40
+Winner: BLACK
+<play: 9>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.69 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.62 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.52 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.47 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.43 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.40 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.34 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.25 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.13 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. w b b b b b b b . 
+. w b b w w w b b . 
+. w b b b b b b b . 
+. w b w w b w w b . 
+. w w b b w w w b . 
+. w w b w b b w b . 
+. b w w b b w w w . 
+. b w w w w w w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 32, BLACK: 32
+Winner: DRAW
+<play: 10>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.80 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.64 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.62 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.55 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.51 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.44 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.38 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.32 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.29 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.26 [sec]
+player1's elapsed time: 0.25 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b w . 
+. b b b b b b b b . 
+. b b w b b w b b . 
+. b w w w b b b b . 
+. w b w w w w b w . 
+. b b b b w w w w . 
+. b b b b b b w w . 
+. b b b b b b b w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 19, BLACK: 45
+Winner: BLACK
+<play: 11>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.80 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.78 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.69 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.67 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.64 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.53 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.49 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.32 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.25 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.20 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.16 [sec]
+player1's elapsed time: 0.15 [sec]
+player1's elapsed time: 0.15 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.07 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.05 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b b . 
+. b w b b b w b b . 
+. b b b b w b b b . 
+. b w b b b w b b . 
+. b b w b b b b b . 
+. b w b w w w b b . 
+. b w b b w b b b . 
+. b b b b b b b w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 13, BLACK: 51
+Winner: BLACK
+<play: 12>
+player1's elapsed time: 0.90 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.69 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.65 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.62 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.51 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.18 [sec]
+player1's elapsed time: 0.17 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b w w . 
+. b b b b b b b w . 
+. b b b b w w b w . 
+. b b b b w w w w . 
+. b b b w b b w w . 
+. b b w b w w b w . 
+. b w b w w b w w . 
+. w w w w w w w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 30, BLACK: 34
+Winner: BLACK
+<play: 13>
+player1's elapsed time: 0.89 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.65 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.55 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.53 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.41 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.38 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.29 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.26 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.18 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.07 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b w . 
+. b b b b b b w w . 
+. b b b b b w b w . 
+. b b w b w b w w . 
+. b b b b b w b w . 
+. b b b w b b b b . 
+. b b w b w b b b . 
+. b b b b b b b b . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 14, BLACK: 50
+Winner: BLACK
+<play: 14>
+player1's elapsed time: 0.87 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.83 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.76 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.55 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.51 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.44 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.41 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.38 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.32 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.29 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.26 [sec]
+player1's elapsed time: 0.25 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.23 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.20 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.18 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.15 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.13 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.09 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.07 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b b . 
+. b w w b b b b b . 
+. w b w w b b b b . 
+. b b b w w w b b . 
+. b b b b b b b b . 
+. b b b b b w b w . 
+. b b b w w b w w . 
+. b b b b b b b w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 15, BLACK: 49
+Winner: BLACK
+<play: 15>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.78 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.69 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.52 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.49 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. w w w w w w w b . 
+. w w w w w w w w . 
+. w w w b b w w w . 
+. b w b w b w w w . 
+. b w b w b b w w . 
+. b b b w b w b b . 
+. b b w w b b b b . 
+. b b b w w w w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 39, BLACK: 25
+Winner: WHITE
+<play: 16>
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.55 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.52 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.41 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.38 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.32 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.29 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.26 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.16 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. w w w w w w w w . 
+. w w b b w b w w . 
+. w b w w w w b w . 
+. w w w w w w w b . 
+. w w w w w w w b . 
+. w w w w w b w w . 
+. w w w b b b w w . 
+. w w w w w w w w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 53, BLACK: 11
+Winner: WHITE
+<play: 17>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.80 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.69 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.65 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.61 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.54 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.51 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.44 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.41 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.38 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.29 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.26 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player1's elapsed time: 0.09 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.07 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.05 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b b . 
+. w b w b w b w b . 
+. w w b b b w b b . 
+. w w w b w w b b . 
+. w w w w w w b b . 
+. w w b w b b b b . 
+. w w w w w b b b . 
+. w w w w w w b b . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 32, BLACK: 32
+Winner: DRAW
+<play: 18>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.84 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.80 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.78 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.64 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.52 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.36 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.21 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.16 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b w . 
+. b b w w b w w w . 
+. b b b w b b w w . 
+. w w b w w b b w . 
+. b w b b w w b b . 
+. b w b b b w b b . 
+. b w w w b w w w . 
+. b b b b b b b w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 26, BLACK: 38
+Winner: BLACK
+<play: 19>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.78 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.73 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.65 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.62 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.58 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.55 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.51 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.48 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.39 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.35 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.25 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.16 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player1's elapsed time: 0.05 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.03 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b w w b . 
+. b b b b b b w b . 
+. b b w w w w w b . 
+. b b w w w b w b . 
+. b b w w b w b b . 
+. b w b b b b w b . 
+. w b w w w w b b . 
+. b b b b b b b b . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 22, BLACK: 42
+Winner: BLACK
+<play: 20>
+player1's elapsed time: 0.88 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.85 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.81 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.77 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.74 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.70 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.66 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.63 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.59 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.56 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.52 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.49 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.45 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.42 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.40 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.33 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.30 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.27 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.24 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.22 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.19 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.17 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.14 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.12 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.10 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.08 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.06 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.04 [sec]
+player2's elapsed time: 0.00 [sec]
+player1's elapsed time: 0.02 [sec]
+player2's elapsed time: 0.00 [sec]
+----------------------------------------
+. . . . . . . . . . 
+. b b b b b b b w . 
+. b b w w b b b w . 
+. b b w w b b b w . 
+. b b b b w w b w . 
+. b b b b b b w w . 
+. b b b w b w b w . 
+. b b b b w b w w . 
+. b b b b b b b w . 
+. . . . . . . . . . 
+----------------------------------------
+WHITE: 19, BLACK: 45
+Winner: BLACK
+
+win: 14, lose: 4, draw: 2
+total time of player1:         : 242.75 [sec]
+average elapsed time of player1: 12.14 [sec]
+total time of player2          : 0.22 [sec]
+average elapsed time of player2: 0.01 [sec]
